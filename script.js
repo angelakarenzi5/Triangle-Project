@@ -22,24 +22,25 @@ function track() {
   }
   //Isosceles Triangle
   else if (
-      firstvalue!==secondvalue &&
-      firstvalue!==thirdvalue &&
-      secondvalue!==thirdvalue){
-          text="Scalene Triangle."
-      }
-      //Scalene Triangle
-      else if (
-          firstvalue + secondvalue <= thirdvalue && 
-          secondvalue + firstvalue <= thirdvalue) ||
-          (firstvalue + thirdvalue <= secondvalue &&
-          thirdvalue + firstvalue <= secondvalue) ||
-          (secondvalue + thirdvalue <=firstvalue) {
-              text="Not a Triangle.";
-          }
-          //Not a triangle
-      else{
-          text="Error.";
-      }
-      document.getElementById('demo').innerHTML = TEXT;
-  )
+    firstvalue !== secondvalue &&
+    firstvalue !== thirdvalue &&
+    secondvalue !== thirdvalue
+  ) {
+    text = "Scalene Triangle.";
+  }
+  //Scalene Triangle
+  else if (
+    (firstvalue + secondvalue <= thirdvalue &&
+      secondvalue + firstvalue <= thirdvalue) ||
+    (firstvalue + thirdvalue <= secondvalue &&
+      thirdvalue + firstvalue <= secondvalue) ||
+    secondvalue + thirdvalue <= firstvalue
+  ) {
+    text = "Not a Triangle.";
+  }
+  //Not a triangle
+  else {
+    text = "Error.";
+  }
+  document.getElementById("demo").innerHTML = text;
 }
