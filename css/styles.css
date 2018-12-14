@@ -1,3 +1,6 @@
 body {
   background-image: url("https://images.pexels.com/photos/1111318/pexels-photo-1111318.jpeg");
+  background-size: cover;
+}
+#values {
 }
