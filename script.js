@@ -4,5 +4,11 @@ function track() {
   var thirdvalue = parseInt(document.getElementById("three").value);
   var text;
 
-  if()
+  if (
+    firstvalue === secondvalue &&
+    secondvalue === thirdvalue &&
+    thirdvalue === firstvalue
+  ) {
+    alert("Equilateral triangle");
+  }
 }
