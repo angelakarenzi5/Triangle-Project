@@ -28,5 +28,18 @@ function track() {
           text="Scalene Triangle."
       }
       //Scalene Triangle
+      else if (
+          firstvalue + secondvalue <= thirdvalue && 
+          secondvalue + firstvalue <= thirdvalue) ||
+          (firstvalue + thirdvalue <= secondvalue &&
+          thirdvalue + firstvalue <= secondvalue) ||
+          (secondvalue + thirdvalue <=firstvalue) {
+              text="Not a Triangle.";
+          }
+          //Not a triangle
+      else{
+          text="Error.";
+      }
+      document.getElementById('demo').innerHTML = TEXT;
   )
 }
