@@ -13,12 +13,20 @@ function track() {
     text = "Equilateral triangle.";
   }
   //Equilateral Triangle
-  else if(
-      firstvalue ===secondvalue ||
-      firstvalue===thirdvalue ||
-      secondvalue===thirdvalue){
-          text="Isosceles Triangle.";
+  else if (
+    firstvalue === secondvalue ||
+    firstvalue === thirdvalue ||
+    secondvalue === thirdvalue
+  ) {
+    text = "Isosceles Triangle.";
+  }
+  //Isosceles Triangle
+  else if (
+      firstvalue!==secondvalue &&
+      firstvalue!==thirdvalue &&
+      secondvalue!==thirdvalue){
+          text="Scalene Triangle."
       }
-      //Isosceles Triangle
+      //Scalene Triangle
   )
 }
