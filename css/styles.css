@@ -8,23 +8,26 @@ em {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+  color: darkorchid;
 }
 h1 {
   padding-top: 100px;
+  color: navy;
 }
 #values {
   width: 40%;
   padding-top: 40px;
-  border-style: solid;
+  border-style: ridge;
   border-width: 2px;
   text-align: center;
+  border-color: navy;
 }
 
 .footer {
   text-align: center;
   background-color: hotpink;
   font-family: "stystem-ui";
-  margin-top: 16.4%;
+  margin-top: 17%;
   width: 100%;
 }
 input {
@@ -43,4 +46,6 @@ button {
 }
 #demo {
   justify-content: flex-end;
+  font-weight: bold;
+  color: navy;
 }
