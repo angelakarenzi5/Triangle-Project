@@ -9,32 +9,42 @@ em {
   font-weight: bold;
   text-align: center;
 }
+h1 {
+  padding-top: 100px;
+}
 #values {
   display: flex;
   margin-left: 40%;
+  padding-top: 40px;
 }
 
 .footer {
   text-align: center;
   background-color: hotpink;
   font-family: "stystem-ui";
-  margin-top: 32%;
+  margin-top: 34%;
 }
 #one {
   margin-left: 30px;
   border: 3px;
   border-radius: 5px;
   text-align: center;
+  padding: 30px;
 }
 #two {
   margin-left: 30px;
   border: 3px;
   border-radius: 5px;
   text-align: center;
+  padding: 30px;
 }
 #three {
   margin-left: 30px;
   border: 3px;
   border-radius: 5px;
   text-align: center;
+  padding: 30px;
+}
+button {
+  margin-top: 30px;
 }
