@@ -44,9 +44,5 @@ function track() {
     text = "Error.";
   }
   document.getElementById("demo").innerHTML =
-    "document.getElementById('demo').innerHTML=The value[" +
-    array +
-    "]" +
-    " is ";
-  document.getElementById("demo").innerHTML = text;
+    "The value[" + array + "]" + " is " + text;
 }
