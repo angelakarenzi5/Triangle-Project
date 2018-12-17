@@ -11,7 +11,7 @@ function track() {
     secondvalue === thirdvalue &&
     thirdvalue === firstvalue
   ) {
-    text = "Equilateral triangle.";
+    text = "Equilateral Triangle.";
   }
   //Equilateral Triangle
   else if (
