@@ -25,13 +25,13 @@ CSS: I used css to style my codes.
 
 ## BDD
 
-|         Behavior          |                     Input Example                      | Numerical Example | Output Example       |
-| :-----------------------: | :----------------------------------------------------: | :---------------: | :------------------- |
-|  a triangle is isosceles  |                 any two side are equal                 |      9; 9; 7      | Isosceles Triangle   |
-| a triangle is equilateral |                   all side are equal                   |      2; 2; 2      | Equilateral Triangle |
-|   a triangle is scalene   |             when no size equal to another              |     4 ; 6; 8      | Scalene Triangle     |
-|   it is not a triangle    | the sum of any two sides is not equal to the third sum |     18; 7; 5      | Not a Triangle       |
-|         Undefined         |             when 0 or nothing is inserted              |      1; 7; 5      | Undefined            |
+|            Behavior            |                        Input Example                         | Numerical Example | Output Example       |
+| :----------------------------: | :----------------------------------------------------------: | :---------------: | :------------------- |
+|  When a triangle is Isosceles  |                     Two sides are equal                      |      9; 9; 7      | Isosceles Triangle   |
+| When a triangle is Equilateral |                     All sides are equal                      |      2; 2; 2      | Equilateral Triangle |
+|   When a triangle is Scalene   |                 None of the sides are equal                  |     4 ; 6; 8      | Scalene Triangle     |
+|   When it is not a triangle    | The summation of any two sides is not equal to the third sum |      9; 4; 3      | Not a Triangle       |
+|      When it is Undefined      |               When zero or nothing is inserted               |      1; 7; 5      | Undefined            |
 
 ## Support and contact details
 

@@ -9,20 +9,19 @@ function track() {
       secondvalue + firstvalue <= thirdvalue) ||
     (firstvalue + thirdvalue <= secondvalue &&
       thirdvalue + firstvalue <= secondvalue) ||
-    secondvalue + thirdvalue <= firstvalue
+    (secondvalue + thirdvalue <= firstvalue &&
+      thirdvalue + secondvalue <= firstvalue)
   ) {
-    text = "Not a Triangle.";
+    return (document.getElementById("demo").innerHTML =
+      "The value[" + array + "]" + " is Not a Triangle");
   }
   //Not a triangle
   if (firstvalue <= 0 || secondvalue <= 0 || thirdvalue <= 0) {
     text = "Undefined";
   } else if (
-    (firstvalue === secondvalue &&
-      secondvalue === thirdvalue &&
-      thirdvalue === firstvalue) ||
-    firstvalue + secondvalue < thirdvalue ||
-    secondvalue + thirdvalue < firstvalue ||
-    thirdvalue + firstvalue < secondvalue
+    firstvalue === secondvalue &&
+    secondvalue === thirdvalue &&
+    thirdvalue === firstvalue
   ) {
     text = "Equilateral Triangle.";
   }
@@ -36,9 +35,12 @@ function track() {
   }
   //Isosceles Triangle
   else if (
-    firstvalue !== secondvalue &&
-    firstvalue !== thirdvalue &&
-    secondvalue !== thirdvalue
+    (firstvalue + secondvalue > thirdvalue &&
+      secondvalue + firstvalue > thirdvalue) ||
+    (secondvalue + thirdvalue > firstvalue &&
+      thirdvalue + secondvalue > firstvalue) ||
+    (thirdvalue + firstvalue > secondvalue &&
+      firstvalue + thirdvalue > secondvalue)
   ) {
     text = "Scalene Triangle.";
   }
