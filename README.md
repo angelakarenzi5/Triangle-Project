@@ -11,7 +11,7 @@ During pre-prep and prep week 1 at Moringa School, the focus was mainly html and
 ## Setup/Installation Requirements
 
 Refer to git clone:https://github.com/angelakarenzi5/Triangle-Project.git for details of code, therefore, you need a code editor.
-You need a browser, to open https://angelakarenzi5.github.io/Triangle-Project/in order to view my triangle-tracker webpage.
+You need a browser, to open https://angelakarenzi5.github.io/Triangle-Project/ order to view my triangle-tracker webpage.
 
 ## Known Bugs
 
