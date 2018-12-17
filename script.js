@@ -3,6 +3,7 @@ function track() {
   var secondvalue = parseInt(document.getElementById("two").value);
   var thirdvalue = parseInt(document.getElementById("three").value);
   var text;
+  var array = [firstvalue, secondvalue, thirdvalue];
   if (firstvalue <= 0 || secondvalue <= 0 || thirdvalue <= 0) {
     text = "Undefined";
   } else if (
@@ -42,5 +43,10 @@ function track() {
   else {
     text = "Error.";
   }
+  document.getElementById("demo").innerHTML =
+    "document.getElementById('demo').innerHTML=The value[" +
+    array +
+    "]" +
+    " is ";
   document.getElementById("demo").innerHTML = text;
 }
