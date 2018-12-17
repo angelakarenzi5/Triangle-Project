@@ -31,7 +31,7 @@ CSS: I used css to style my codes.
 | When a triangle is Equilateral |                     All sides are equal                      |      2; 2; 2      | Equilateral Triangle |
 |   When a triangle is Scalene   |                 None of the sides are equal                  |     4 ; 6; 8      | Scalene Triangle     |
 |   When it is not a triangle    | The summation of any two sides is not equal to the third sum |      9; 4; 3      | Not a Triangle       |
-|      When it is Undefined      |               When zero or nothing is inserted               |      1; 7; 5      | Undefined            |
+|      When it is Undefined      |               When zero or nothing is inserted               |      1; 0; 5      | Undefined            |
 
 ## Support and contact details
 
