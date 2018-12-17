@@ -24,25 +24,12 @@ h1 {
   font-family: "stystem-ui";
   margin-top: 24%;
 }
-#one {
+input {
   margin-left: 0.5px;
   border: 3px;
   border-radius: 5px;
   padding: 20px;
-}
-#two {
-  margin-left: 0.5px;
-  border: 3px;
-  border-radius: 5px;
-  text-align: center;
-  padding: 20px;
-}
-#three {
-  margin-left: 0.5px;
-  border: 3px;
-  border-radius: 5px;
-  text-align: center;
-  padding: 20px;
+  margin: 20px 0px 20px;
 }
 button {
   margin-top: 20px;
