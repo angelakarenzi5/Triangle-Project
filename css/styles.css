@@ -8,7 +8,7 @@ em {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  color: darkorchid;
+  color: navy;
 }
 h1 {
   padding-top: 100px;
@@ -48,4 +48,5 @@ button {
   justify-content: flex-end;
   font-weight: bold;
   color: navy;
+  font-size: 30px;
 }
