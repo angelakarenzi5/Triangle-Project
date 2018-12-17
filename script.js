@@ -4,7 +4,9 @@ function track() {
   var thirdvalue = parseInt(document.getElementById("three").value);
   var text;
   var array = [firstvalue, secondvalue, thirdvalue];
-  if (
+  if (firstvalue <= 0 || secondvalue <= 0 || thirdvalue <= 0) {
+    text = "Undefined";
+  } else if (
     (firstvalue + secondvalue <= thirdvalue &&
       secondvalue + firstvalue <= thirdvalue) ||
     (firstvalue + thirdvalue <= secondvalue &&
@@ -16,9 +18,7 @@ function track() {
       "The value[" + array + "]" + " is Not a Triangle");
   }
   //Not a triangle
-  if (firstvalue <= 0 || secondvalue <= 0 || thirdvalue <= 0) {
-    text = "Undefined";
-  } else if (
+  else if (
     firstvalue === secondvalue &&
     secondvalue === thirdvalue &&
     thirdvalue === firstvalue
