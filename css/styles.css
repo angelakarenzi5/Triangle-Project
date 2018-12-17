@@ -13,16 +13,19 @@ h1 {
   padding-top: 100px;
 }
 #values {
-  display: flex;
-  margin-left: 40%;
+  width: 40%;
   padding-top: 40px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
 }
 
 .footer {
   text-align: center;
   background-color: hotpink;
   font-family: "stystem-ui";
-  margin-top: 24%;
+  margin-top: 16.4%;
+  width: 100%;
 }
 input {
   margin-left: 0.5px;
@@ -32,5 +35,12 @@ input {
   margin: 20px 0px 20px;
 }
 button {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+#demo {
+  justify-content: flex-end;
 }
