@@ -11,4 +11,15 @@ em {
 }
 #values {
   display: flex;
+  margin-left: 40%;
+}
+
+.footer {
+  text-align: center;
+  background-color: hotpink;
+  font-family: "stystem-ui";
+  margin-top: 32%;
+}
+#one {
+  margin-left: 30px;
 }
